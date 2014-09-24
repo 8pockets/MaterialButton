@@ -13,6 +13,9 @@
 		C4C78DD019D31F4C000A91AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C78DCF19D31F4C000A91AF /* Images.xcassets */; };
 		C4C78DD319D31F4C000A91AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C78DD119D31F4C000A91AF /* LaunchScreen.xib */; };
 		C4C78DDF19D31F4C000A91AF /* MaterialButtonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C78DDE19D31F4C000A91AF /* MaterialButtonDemoTests.swift */; };
+		C4C78E0119D31F56000A91AF /* MaterialButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C78DED19D31F56000A91AF /* MaterialButton.framework */; };
+		C4C78E0219D31F56000A91AF /* MaterialButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4C78DED19D31F56000A91AF /* MaterialButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C4C78E0D19D31F71000A91AF /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C78E0C19D31F71000A91AF /* MaterialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +26,42 @@
 			remoteGlobalIDString = C4C78DC219D31F4C000A91AF;
 			remoteInfo = MaterialButtonDemo;
 		};
+		C4C78DF819D31F56000A91AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C78DBB19D31F4C000A91AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C78DC219D31F4C000A91AF;
+			remoteInfo = MaterialButtonDemo;
+		};
+		C4C78DFF19D31F56000A91AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C78DBB19D31F4C000A91AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C78DEC19D31F56000A91AF;
+			remoteInfo = MaterialButton;
+		};
+		C4C78E0319D31F56000A91AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C78DBB19D31F4C000A91AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C78DEC19D31F56000A91AF;
+			remoteInfo = MaterialButton;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4C78E0819D31F56000A91AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C4C78E0219D31F56000A91AF /* MaterialButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C4C78DC319D31F4C000A91AF /* MaterialButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +74,9 @@
 		C4C78DD819D31F4C000A91AF /* MaterialButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C78DDD19D31F4C000A91AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C78DDE19D31F4C000A91AF /* MaterialButtonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialButtonDemoTests.swift; sourceTree = "<group>"; };
+		C4C78DED19D31F56000A91AF /* MaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C78DF719D31F56000A91AF /* MaterialButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C78E0C19D31F71000A91AF /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +84,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C78E0119D31F56000A91AF /* MaterialButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C4C78DD519D31F4C000A91AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C78DE919D31F56000A91AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C78DF419D31F56000A91AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,6 +126,8 @@
 			children = (
 				C4C78DC319D31F4C000A91AF /* MaterialButtonDemo.app */,
 				C4C78DD819D31F4C000A91AF /* MaterialButtonDemoTests.xctest */,
+				C4C78DED19D31F56000A91AF /* MaterialButton.framework */,
+				C4C78DF719D31F56000A91AF /* MaterialButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +135,7 @@
 		C4C78DC519D31F4C000A91AF /* MaterialButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C4C78DEE19D31F56000A91AF /* MaterialButton */,
 				C4C78DC819D31F4C000A91AF /* AppDelegate.swift */,
 				C4C78DCA19D31F4C000A91AF /* ViewController.swift */,
 				C4C78DCC19D31F4C000A91AF /* Main.storyboard */,
@@ -112,7 +171,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C4C78DEE19D31F56000A91AF /* MaterialButton */ = {
+			isa = PBXGroup;
+			children = (
+				C4C78E0C19D31F71000A91AF /* MaterialButton.swift */,
+			);
+			name = MaterialButton;
+			path = ../MaterialButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4C78DEA19D31F56000A91AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C4C78DC219D31F4C000A91AF /* MaterialButtonDemo */ = {
@@ -122,10 +200,13 @@
 				C4C78DBF19D31F4C000A91AF /* Sources */,
 				C4C78DC019D31F4C000A91AF /* Frameworks */,
 				C4C78DC119D31F4C000A91AF /* Resources */,
+				C4C78E0819D31F56000A91AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C4C78E0019D31F56000A91AF /* PBXTargetDependency */,
+				C4C78E0419D31F56000A91AF /* PBXTargetDependency */,
 			);
 			name = MaterialButtonDemo;
 			productName = MaterialButtonDemo;
@@ -150,6 +231,42 @@
 			productReference = C4C78DD819D31F4C000A91AF /* MaterialButtonDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C4C78DEC19D31F56000A91AF /* MaterialButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C78E0519D31F56000A91AF /* Build configuration list for PBXNativeTarget "MaterialButton" */;
+			buildPhases = (
+				C4C78DE819D31F56000A91AF /* Sources */,
+				C4C78DE919D31F56000A91AF /* Frameworks */,
+				C4C78DEA19D31F56000A91AF /* Headers */,
+				C4C78DEB19D31F56000A91AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialButton;
+			productName = MaterialButton;
+			productReference = C4C78DED19D31F56000A91AF /* MaterialButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4C78DF619D31F56000A91AF /* MaterialButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C78E0919D31F56000A91AF /* Build configuration list for PBXNativeTarget "MaterialButtonTests" */;
+			buildPhases = (
+				C4C78DF319D31F56000A91AF /* Sources */,
+				C4C78DF419D31F56000A91AF /* Frameworks */,
+				C4C78DF519D31F56000A91AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4C78DF919D31F56000A91AF /* PBXTargetDependency */,
+			);
+			name = MaterialButtonTests;
+			productName = MaterialButtonTests;
+			productReference = C4C78DF719D31F56000A91AF /* MaterialButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,6 +280,13 @@
 						CreatedOnToolsVersion = 6.0;
 					};
 					C4C78DD719D31F4C000A91AF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C4C78DC219D31F4C000A91AF;
+					};
+					C4C78DEC19D31F56000A91AF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C4C78DF619D31F56000A91AF = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = C4C78DC219D31F4C000A91AF;
 					};
@@ -183,6 +307,8 @@
 			targets = (
 				C4C78DC219D31F4C000A91AF /* MaterialButtonDemo */,
 				C4C78DD719D31F4C000A91AF /* MaterialButtonDemoTests */,
+				C4C78DEC19D31F56000A91AF /* MaterialButton */,
+				C4C78DF619D31F56000A91AF /* MaterialButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +325,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C4C78DD619D31F4C000A91AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C78DEB19D31F56000A91AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C78DF519D31F56000A91AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +365,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4C78DE819D31F56000A91AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C78E0D19D31F71000A91AF /* MaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C78DF319D31F56000A91AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +387,21 @@
 			isa = PBXTargetDependency;
 			target = C4C78DC219D31F4C000A91AF /* MaterialButtonDemo */;
 			targetProxy = C4C78DD919D31F4C000A91AF /* PBXContainerItemProxy */;
+		};
+		C4C78DF919D31F56000A91AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C78DC219D31F4C000A91AF /* MaterialButtonDemo */;
+			targetProxy = C4C78DF819D31F56000A91AF /* PBXContainerItemProxy */;
+		};
+		C4C78E0019D31F56000A91AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C78DEC19D31F56000A91AF /* MaterialButton */;
+			targetProxy = C4C78DFF19D31F56000A91AF /* PBXContainerItemProxy */;
+		};
+		C4C78E0419D31F56000A91AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C78DEC19D31F56000A91AF /* MaterialButton */;
+			targetProxy = C4C78E0319D31F56000A91AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -386,6 +556,83 @@
 			};
 			name = Release;
 		};
+		C4C78E0619D31F56000A91AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaterialButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4C78E0719D31F56000A91AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MaterialButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4C78E0A19D31F56000A91AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaterialButtonDemo.app/MaterialButtonDemo";
+			};
+			name = Debug;
+		};
+		C4C78E0B19D31F56000A91AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaterialButtonDemo.app/MaterialButtonDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +658,22 @@
 			buildConfigurations = (
 				C4C78DE619D31F4C000A91AF /* Debug */,
 				C4C78DE719D31F4C000A91AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4C78E0519D31F56000A91AF /* Build configuration list for PBXNativeTarget "MaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C78E0619D31F56000A91AF /* Debug */,
+				C4C78E0719D31F56000A91AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4C78E0919D31F56000A91AF /* Build configuration list for PBXNativeTarget "MaterialButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C78E0A19D31F56000A91AF /* Debug */,
+				C4C78E0B19D31F56000A91AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
