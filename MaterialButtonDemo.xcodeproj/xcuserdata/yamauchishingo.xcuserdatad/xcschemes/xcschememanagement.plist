@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MaterialButton.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MaterialButtonDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C4C78DC219D31F4C000A91AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4C78DD719D31F4C000A91AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4C78DEC19D31F56000A91AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4C78DF619D31F56000A91AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

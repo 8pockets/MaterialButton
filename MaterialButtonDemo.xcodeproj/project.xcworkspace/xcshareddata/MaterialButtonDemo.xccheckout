@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B368C61-7129-4F3E-B0D5-A309C521F893</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MaterialButtonDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4BDCC5EE279F1BE8BD89CE3579B71C8A55468E1F</key>
+		<string>github.com:8pockets/MaterialButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MaterialButtonDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4BDCC5EE279F1BE8BD89CE3579B71C8A55468E1F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:8pockets/MaterialButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4BDCC5EE279F1BE8BD89CE3579B71C8A55468E1F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4BDCC5EE279F1BE8BD89CE3579B71C8A55468E1F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MaterialButtonDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
